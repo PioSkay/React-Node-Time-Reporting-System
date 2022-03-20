@@ -1,0 +1,26 @@
+.elementsFilter {
+  color: white;
+  padding: 0 1rem;
+}
+
+.elementsFilter__control {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
+.elementsFilter label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.elementsFilter input {
+  font: inherit;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  width: 35%;
+  border-radius: 6px;
+  min-width: 12.5rem;
+}

@@ -1,0 +1,16 @@
+{
+	"entries": [
+		{
+			"date": "2022-03-16",
+			"code": "OTHER",
+			"time": 100,
+			"description": "Feature development."
+		},
+		{
+			"date": "2022-03-16",
+			"code": "ARGUS-123",
+			"time": 12,
+			"description": ""
+		}
+	]
+}

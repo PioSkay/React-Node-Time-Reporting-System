@@ -1,0 +1,16 @@
+{
+	"entries": [
+		{
+			"date": "2022-02-22",
+			"code": "ARGUS-123",
+			"time": 12,
+			"description": "WW"
+		},
+		{
+			"date": "2022-02-06",
+			"code": "OTHER",
+			"time": 6,
+			"description": "3"
+		}
+	]
+}

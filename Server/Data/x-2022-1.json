@@ -1,0 +1,46 @@
+{
+	"entries": [
+		{
+			"date": "2022-01-22",
+			"code": "ARGUS-123",
+			"time": 2,
+			"description": ""
+		},
+		{
+			"date": "2022-01-29",
+			"code": "ARGUS-123",
+			"time": 2,
+			"description": ""
+		},
+		{
+			"date": "2022-01-06",
+			"code": "ARGUS-123",
+			"time": 3,
+			"description": "3"
+		},
+		{
+			"date": "2022-01-06",
+			"code": "ARGUS-123",
+			"time": 6,
+			"description": ""
+		},
+		{
+			"date": "2022-01-04",
+			"code": "OTHER",
+			"time": 10,
+			"description": "8i9"
+		},
+		{
+			"date": "2022-01-10",
+			"code": "ARGUS-123",
+			"time": 12,
+			"description": "u"
+		},
+		{
+			"date": "2022-01-11",
+			"code": "ARGUS-123",
+			"time": 1,
+			"description": "1"
+		}
+	]
+}

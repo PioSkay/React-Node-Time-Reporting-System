@@ -1,0 +1,93 @@
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: #4b4b4b;
+    animation-name: appear;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    min-width: 25rem !important;
+}
+
+@keyframes appear{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+.element:hover {
+    transition: background-color 0.2s;
+    background-color: #5c5c5c;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+tbody {
+    color:white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+tr{
+    font-size: 1rem;
+}
+
+h2 {
+    color: #3a3a3a;
+    font-size: 1rem;
+    flex: 1;
+    margin: 0 1rem;
+    color: white;
+}
+.controls {
+    width: 5rem;
+    margin: 0.2rem;
+    display: flex;
+    flex-direction: row;
+    flex-flow: column-reverse;
+}
+
+.formbutton {
+    background-color: black;
+    margin: 0.2rem;
+    width: 5rem;
+    padding: 0.4rem 1rem;
+    font: inherit;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.formbuttonRed {
+    background-color: rgb(39, 12, 12);
+    margin: 0.2rem;
+    width: 5rem;
+    padding: 0.4rem 1rem;
+    font: inherit;
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.formbuttonRed:hover {
+    background-color: rgb(78, 31, 31);
+    color: white;
+}
+.formbuttonRed:active {
+    background-color: rgb(39, 12, 12);
+    color: white;
+}
+.formbutton:hover {
+    background-color: rgb(65, 65, 65);
+    color: white;
+}
+.formbutton:active {
+    background-color: rgb(0, 0, 0);
+}
